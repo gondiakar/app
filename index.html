@@ -1,1 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gondiakar News App - Gondia's Trusted Local News App</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8f9fa;
+color:#222;
+}
+
+.hero{
+background:linear-gradient(135deg,#d90429,#ef233c);
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+.logo{
+width:120px;
+height:120px;
+border-radius:24px;
+background:white;
+padding:10px;
+margin:auto;
+display:block;
+}
+
+.hero h1{
+font-size:38px;
+margin-top:20px;
+font-weight:700;
+}
+
+.hero p{
+max-width:700px;
+margin:15px auto;
+font-size:18px;
+opacity:.95;
+}
+
+.btn-group{
+margin-top:30px;
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.btn{
+padding:14px 28px;
+border-radius:10px;
+text-decoration:none;
+font-weight:600;
+display:inline-block;
+transition:.3s;
+}
+
+.btn-primary{
+background:white;
+color:#d90429;
+}
+
+.btn-primary:hover{
+transform:translateY(-3px);
+}
+
+.btn-secondary{
+background:#111;
+color:white;
+}
+
+.section{
+padding:70px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.section-title{
+text-align:center;
+font-size:32px;
+margin-bottom:40px;
+font-weight:700;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.feature{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.feature h3{
+margin-bottom:10px;
+color:#d90429;
+}
+
+.screenshots{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.screenshot{
+background:white;
+padding:10px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.screenshot img{
+width:100%;
+border-radius:10px;
+}
+
+.download{
+text-align:center;
+background:white;
+padding:60px 20px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.download h2{
+margin-bottom:15px;
+}
+
+.footer{
+background:#111;
+color:white;
+padding:40px 20px;
+text-align:center;
+}
+
+.footer a{
+color:#fff;
+text-decoration:none;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.stat{
+background:white;
+padding:25px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.stat h3{
+font-size:34px;
+color:#d90429;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:30px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<img src="logo.png" alt="Gondiakar Logo" class="logo">
+
+<h1>Gondiakar News</h1>
+
+<p>
+Gondia's Most Trusted Local News App.
+Get breaking news, local updates, government announcements,
+events, jobs, education news, business updates and much more —
+all in one place.
+</p>
+
+<div class="btn-group">
+
+<a href="APK_LINK_HERE" class="btn btn-primary">
+📥 Download APK
+</a>
+
+<a href="PLAYSTORE_LINK_HERE" class="btn btn-secondary">
+▶ Download on Play Store
+</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">Why Choose Gondiakar?</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>🚨 Breaking News Alerts</h3>
+<p>Receive instant notifications for important local updates and emergencies.</p>
+</div>
+
+<div class="feature">
+<h3>📰 Hyperlocal Coverage</h3>
+<p>Stay informed about Gondia city, talukas, villages and surrounding regions.</p>
+</div>
+
+<div class="feature">
+<h3>🎥 Photos & Videos</h3>
+<p>Watch local events, viral stories and ground reports directly inside the app.</p>
+</div>
+
+<div class="feature">
+<h3>📍 City Updates</h3>
+<p>Government notices, traffic updates, civic issues and community announcements.</p>
+</div>
+
+<div class="feature">
+<h3>🎓 Education News</h3>
+<p>Schools, colleges, competitive exams and career opportunities.</p>
+</div>
+
+<div class="feature">
+<h3>💼 Business & Jobs</h3>
+<p>Local business updates, openings, promotions and job opportunities.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">App Screenshots</h2>
+
+<div class="screenshots">
+
+<div class="screenshot">
+<img src="screenshots/screen1.jpg" alt="">
+</div>
+
+<div class="screenshot">
+<img src="screenshots/screen2.jpg" alt="">
+</div>
+
+<div class="screenshot">
+<img src="screenshots/screen3.jpg" alt="">
+</div>
+
+<div class="screenshot">
+<img src="screenshots/screen4.jpg" alt="">
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="stats">
+
+<div class="stat">
+<h3>24x7</h3>
+<p>News Updates</p>
+</div>
+
+<div class="stat">
+<h3>100%</h3>
+<p>Local Coverage</p>
+</div>
+
+<div class="stat">
+<h3>Fast</h3>
+<p>Push Notifications</p>
+</div>
+
+<div class="stat">
+<h3>Free</h3>
+<p>Download & Use</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="download">
+
+<h2>Download Gondiakar News App Today</h2>
+
+<p style="margin-bottom:25px;">
+Stay connected with Gondia's latest news, events and updates.
+</p>
+
+<div class="btn-group">
+
+<a href="APK_LINK_HERE" class="btn btn-primary">
+📥 Download APK
+</a>
+
+<a href="PLAYSTORE_LINK_HERE" class="btn btn-secondary">
+▶ Play Store
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<h3>Gondiakar News</h3>
+
+<p style="margin-top:15px;">
+Your Voice. Your City. Your News.
+</p>
+
+<p style="margin-top:15px;">
+📧 info@gondiakar.in
+</p>
+
+<p style="margin-top:10px;">
+🌐 www.gondiakar.in
+</p>
+
+<p style="margin-top:10px;">
+📍 Gondia, Maharashtra, India
+</p>
+
+<p style="margin-top:20px;">
+<a href="https://www.gondiakar.in/p/privacy-policy.html">
+Privacy Policy
+</a>
+</p>
+
+<p style="margin-top:20px;font-size:14px;opacity:.7;">
+© 2026 Gondiakar News. All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+</html>
