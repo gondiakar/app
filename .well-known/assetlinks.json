@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.gondianews",
+      "sha256_cert_fingerprints": [
+        "EA:7C:2E:C2:0E:2B:13:46:69:CD:D8:27:D5:1B:E1:C6:D4:5D:D7:1A:43:FC:AA:14:F2:06:F0:5C:3F:7A:CC:8E"
+      ]
+    }
+  }
+]
